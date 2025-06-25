@@ -56,7 +56,7 @@ rspec spec
 - user input when finding duplicates will be ignored
 
 ## Known limitations and areas for future improvement
-This tool has been built to work wiht a hardcoded set of JSON client data. Further changes would be required if this was to use a dynamic source of client data.
+This tool has been built to work with a hardcoded set of JSON client data. Further changes would be required if this was to use a dynamic source of client data.
 
 Changes might include:
 - JSON schema validation
@@ -65,12 +65,12 @@ Changes might include:
 - optimisations for faster searching of a larger dataset or more complex data structure
 
 ### Limitations
-- this has been tested with ruby version 3.0 to 3.4. Other ruby versions may or may not be supported
+- this has been tested with ruby versions 3.0 to 3.4. Other ruby versions may or may not be supported
 - the clients list is hardcoded rather than created dynamically
 - the code and tests have been built to perform two very specific commands. As such it would need refactoring if it needed to become more generic
 
 ### Future improvements
-- specs could be improved by using fixture or factories for data setup
+- specs could be improved by using fixtures or factories for data setup
 - more sophisticated search if required including fuzzy search, case sensitivity options, regex
 - search could be expanded to allow the user to specify the key and value to search for rather than only name
 - finding duplicates could be extended to allow the user to specify a key and value to search for duplicates on
